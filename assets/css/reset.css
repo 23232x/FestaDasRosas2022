@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  /*image-rendering: Dimensiona a imagem sem perder qualidade  */
+  /* image-rendering: pixelated; */
+  display: block;
+  max-width: 100%;
+}
+
+html,
+body {
+  height: 100vh;
+  font-family: "Source Sans Pro";
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+
+}
+
+html {
+  /*  a cada 1rem será considerado 10px */
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+
+}
